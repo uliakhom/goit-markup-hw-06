@@ -688,6 +688,11 @@ img {
   height: 18px;
 }
 
+.modal-close:hover .close-btn,
+.modal-close:focus .close-btn {
+  fill: var(--accent-color);
+}
+
 .modal-close {
   position: absolute;
   top: 8px;
